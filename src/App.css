@@ -1,0 +1,13 @@
+.app-container {
+    min-height: 100vh;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
