@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import Home from './components/Home'
-import ThemeToggle from './components/ThemeToggle';
 import './App.css'
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 function App() {
 
@@ -20,11 +21,12 @@ function App() {
 
   return (
     <div className={ `app-container ${isDarkMode ? "dark-theme" : "light-theme"}`}>
-      <ThemeToggle
+      <Navbar
         isDarkMode={isDarkMode}
         onToggle={handleThemeToggle}
       />
       <Home />
+      <Skills />
     </div>
   );
 }
