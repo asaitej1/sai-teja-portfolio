@@ -3,6 +3,8 @@ import Home from './components/Home'
 import './App.css'
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
       />
       <Home />
       <Skills />
+      <Experience />
+      <Projects />
     </div>
   );
 }

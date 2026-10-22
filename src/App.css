@@ -113,6 +113,92 @@
     font-weight: 600;
 }
 
+/* Experience styles */
+.experience-heading {
+    text-align: center;
+}
+
+.experience-section {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 60px 24px;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.experience-card {
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.technology-badge {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 0.875rem;
+}
+
+/* Projects styles */
+.projects-heading {
+    text-align: center;
+}
+.projects-section {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 60px 24px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.project-card {
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.project-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+.filter-button:not(.active):hover {
+    background: #6e94e4;
+}
+
+.filter-button.active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+
 /* Responsive styles */
 @media (max-width: 768px) {
     /* Mobile navbar */
@@ -145,6 +231,11 @@
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Projects styles */
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -163,6 +254,11 @@
  @media (max-width: 480px) {
     /* Skills styles */
     .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects styles */
+    .projects-grid {
         grid-template-columns: 1fr;
     }
  }

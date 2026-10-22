@@ -26,6 +26,7 @@ function Navbar ({isDarkMode, onToggle}) {
                     <li onClick={() => setIsMenuOpen(false)}><a href="#home">Home</a></li>
                     <li onClick={() => setIsMenuOpen(false)}><a href="#about">About</a></li>
                     <li onClick={() => setIsMenuOpen(false)}><a href="#skills">Skills</a></li>
+                    <li onClick={() => setIsMenuOpen(false)}><a href="#experience">Experience</a></li>
                     <li onClick={() => setIsMenuOpen(false)}><a href="#projects">Projects</a></li>
                     <li onClick={() => setIsMenuOpen(false)}><a href="#contact">Contact</a></li>
                 </ul>
