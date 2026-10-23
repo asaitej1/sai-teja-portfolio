@@ -6,8 +6,10 @@ function Home () {
     const developerRole = "Frontend Developer";
     const primarySkills = "React | Angular | TypeScript";
 
-    function handleButtonClick (buttonName) {
-        console.log(`${buttonName} button clicked!`);
+    function handleViewProjects() {
+        document.getElementById("projects")?.scrollIntoView({
+            behavior: "smooth"
+        })
     }
 
     return (
@@ -26,15 +28,17 @@ function Home () {
                     <CustomButton
                         label="View Projects" 
                         className="view-projects-button"
-                        onClick={() => handleButtonClick("View Projects")}
+                        onClick={handleViewProjects}
                         type = "button"
                     />
-                    <CustomButton
-                        label="Download Resume" 
-                        className="download-resume-button"
-                        onClick={() => handleButtonClick("Download Resume")}
-                        type = "button"
-                    />
+                    <a 
+                        className="download-resume-button" 
+                        href="/resume/Sai_Teja_FE_Resume.pdf"
+                        target="_blank" 
+                        download={"Sai_Teja_FE_Resume.pdf"}
+                    >
+                        Download Resume
+                    </a>
                 </div>
             </div>
         </section>
