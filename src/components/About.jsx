@@ -4,9 +4,9 @@ function About () {
         <section id="about" className="about-section">
             <h2 className="about-heading">About Me</h2>
             <div className="about-content">
-                <p>I’m a Frontend Developer specializing in React, Angular, JavaScript, and TypeScript, with experience building scalable enterprise applications.</p>
-                <p>My work includes developing reusable UI components, integrating REST APIs, implementing dynamic forms, and building data-intensive interfaces. I’ve also worked with Redux, Redux-Saga, PrimeReact, Node.js, and MongoDB.</p>
-                <p>I enjoy transforming complex requirements into intuitive, responsive, and maintainable user experiences.</p>
+                <p>I’m a Full Stack Developer with 5+ years of experience designing and developing scalable enterprise web applications using React, Angular, TypeScript, JavaScript, Node.js, and Express.js.</p>
+                <p>My expertise includes building reusable UI components, implementing complex data-driven interfaces, integrating RESTful APIs, managing application state with Redux, and developing secure, role-based application functionality. I also have experience with backend development, MongoDB, MySQL, and cloud-hosted applications.</p>
+                <p>I’ve contributed throughout the software development lifecycle, from UI/UX design in Figma to development, performance optimization, deployment, and production support. I enjoy transforming complex business requirements into intuitive, responsive, and maintainable applications.</p>
             </div>
         </section>
     )

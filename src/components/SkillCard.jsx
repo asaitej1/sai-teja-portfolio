@@ -1,8 +1,11 @@
 function SkillCard ({skill}) {
 
+    const Icon = skill.icon;
+
     return (
         <div className="skill-card">
-            {skill}
+            <Icon size={24} aria-hidden="true" />
+            {skill.name}
         </div>
     )
 }

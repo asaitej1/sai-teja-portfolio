@@ -6,7 +6,7 @@ function Projects () {
 
     const [selectedTechnology, setSelectedTechnology] = useState("All");
 
-    const filterOptions = ["All", "React", "Angular"];
+    const filterOptions = ["All", "React"];
 
     const projects = [
         {
@@ -22,11 +22,13 @@ function Projects () {
             technologies: ["Angular", "TypeScript", "Node.js", "MongoDB"]
         },
         {
-            id: "portfolio",
-            name: "Personal Portfolio",
-            description: "Responsive developer portfolio built using React and JavaScript.",
-            technologies: ["React", "JavaScript", "CSS"]
-        }
+        id: "portfolio",
+        name: "Personal Developer Portfolio",
+        description: "A responsive personal portfolio built with React and JavaScript to showcase my technical skills, professional experience, and projects. Features reusable components, dark/light theme switching, technology-based skill categories, and responsive layouts.",
+        technologies: ["React", "JavaScript", "HTML5", "CSS3", "Vite"
+        ]
+
+    }
     ];
 
     const filteredProjects = selectedTechnology === "All"

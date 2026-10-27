@@ -1,17 +1,17 @@
-import CustomButton from "./CustomButton";
+import { Sun, Moon} from "lucide-react"
 
 
 function ThemeToggle ({isDarkMode, onToggle}) {
 
     return (
-        <>
-            <CustomButton
-                label={`Switch to ${isDarkMode ? "Light Mode" : "Dark Mode"}`}
+            <button
                 type="button"
                 className="theme-toggle-button"
                 onClick={onToggle}
-            />
-        </>
+                aria-label={`Switch to ${isDarkMode ? "light" : "dark"} mode`}
+            >
+                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
     )
 }
 

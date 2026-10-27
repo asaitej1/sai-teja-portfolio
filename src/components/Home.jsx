@@ -1,13 +1,13 @@
-import WelcomeMessage from "./WelcomeMessage";
 import CustomButton from "./CustomButton";
+import { Download } from "lucide-react"
 
 function Home () {
     const developerName = "Hi, I'm Sai Teja Avadhootha"
-    const developerRole = "Frontend Developer";
-    const primarySkills = "React | Angular | TypeScript";
+    const developerRole = "Full Stack Developer | Frontend Developer";
+    const primarySkills = "React • Angular • TypeScript • JavaScript • Node.js • Express.js";
 
-    function handleViewProjects() {
-        document.getElementById("projects")?.scrollIntoView({
+    function handleViewExperiences() {
+        document.getElementById("experience")?.scrollIntoView({
             behavior: "smooth"
         })
     }
@@ -18,25 +18,22 @@ function Home () {
                 <h1 className='developer-name'>{developerName}</h1>
                 <p className='developer-role'>{developerRole}</p>
                 <p className='primary-skills'>{primarySkills}</p>
-                <WelcomeMessage
-                    message="Welcome to My Portfolio"
-                />
                 <p className='intro'>
-                    I build responsive, scalable enterprise applications with a focus on user experience and performance.
+                    Full Stack Developer with 5+ years of experience building scalable enterprise web applications. I specialize in developing responsive, high-performance user interfaces with React, Angular, and TypeScript, along with backend services and REST APIs using Node.js and Express.js.
                 </p>
                 <div className="hero-actions">
                     <CustomButton
-                        label="View Projects" 
+                        label="View Experiences" 
                         className="view-projects-button"
-                        onClick={handleViewProjects}
+                        onClick={handleViewExperiences}
                         type = "button"
                     />
                     <a 
                         className="download-resume-button" 
-                        href="/resume/Sai_Teja_FE_Resume.pdf"
-                        target="_blank" 
-                        download={"Sai_Teja_FE_Resume.pdf"}
+                        href="/resume/Sai_Teja_Avadhootha_Resume.pdf"
+                        download={"Sai_Teja_Avadhootha_Resume.pdf"}
                     >
+                        <Download size={20} aria-hidden="true" />
                         Download Resume
                     </a>
                 </div>
