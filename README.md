@@ -1,16 +1,125 @@
-# React + Vite
+# Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio built using React, JavaScript, CSS, and Vite.
 
-Currently, two official plugins are available:
+This application showcases my professional experience, technical skills, and software development projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+[View My Portfolio](https://sai-teja-portfolio-three.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Development Tools
+
+- Vite
+- Visual Studio Code
+- Git
+- GitHub
+
+### Deployment
+
+- Vercel
+
+## ✨ Features
+
+- Responsive design for desktop, tablet, and mobile devices
+- Dark and light theme support
+- Interactive navigation
+- Skills and project filtering
+- Professional experience and project sections
+- Resume access
+- Social and professional profile links
+
+## 🚀 Getting Started
+
+Follow these instructions to run the project locally.
+
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/asaitej1/sai-teja-portfolio.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd sai-teja-portfolio
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+## 📦 Production Build
+
+To generate a production-ready build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🔄 Deployment & CI/CD
+
+This portfolio is deployed using Vercel and integrated with GitHub.
+
+The deployment workflow is:
+
+1. Develop and test changes locally.
+2. Commit changes using Git.
+3. Push changes to the GitHub repository.
+4. Vercel automatically builds and deploys the updated application.
+
+This workflow provides continuous deployment whenever new changes are pushed to the connected production branch.
+
+## 📁 Project Structure
+
+```text
+sai-teja-portfolio/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 👨‍💻 About Me
+
+I am a software developer with experience building frontend and full-stack web applications.
+
+My technical interests include React, JavaScript, TypeScript, modern frontend architecture, backend development, cloud technologies, and AI-powered applications.
+
+## 📬 Connect With Me
+
+- **LinkedIn:** [Sai Teja Avadhootha](https://www.linkedin.com/in/sai-teja-avadhootha-61215618b)
+- **Portfolio:** [Visit Website](https://sai-teja-portfolio-three.vercel.app)
